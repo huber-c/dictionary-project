@@ -27,11 +27,13 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary text-center">
-      <form onSubmit={search}>
-        <input type="search" onChange={updateEntryChange} autoFocus={true} />
-      </form>
-      <Results />
+    <div>
+      <div className="Dictionary text-center">
+        <form onSubmit={search}>
+          <input type="search" onChange={updateEntryChange} autoFocus={true} />
+        </form>
+      </div>
+      <Results results={results} />
     </div>
   );
 }
