@@ -1,0 +1,19 @@
+.head {
+  background: #ffd05b;
+  padding: 15px 0 15px 15px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: none;
+  margin-bottom: -10px;
+  z-index: 100;
+  position: relative;
+}
+
+section {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+  margin-bottom: 15px;
+  position: relative;
+  z-index: -1;
+}
