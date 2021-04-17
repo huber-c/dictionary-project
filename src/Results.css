@@ -1,3 +1,8 @@
+.Results h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
 .head {
   background: #ffd05b;
   padding: 15px 0 15px 15px;

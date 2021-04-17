@@ -37,6 +37,9 @@ export default function Dictionary() {
             autoFocus={true}
           />
         </form>
+        <div className="hint">
+          <small>You can search for: meadow, water, clock...</small>
+        </div>
       </div>
       <Results results={results} />
     </div>

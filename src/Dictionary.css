@@ -3,5 +3,10 @@
 }
 
 .dictionary-input {
-  border-radius: 3px;
+  border-radius: 7px;
+  border: 0.13em solid #324a5e;
+  color: #333;
+  padding: 6px;
+  width: -webkit-fill-available;
+  max-width: 400px;
 }

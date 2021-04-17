@@ -13,7 +13,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="text-center footer">
-          <small>Coded by Carina</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/huber-c/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Carina
+            </a>
+          </small>
         </footer>
       </div>
     </div>
