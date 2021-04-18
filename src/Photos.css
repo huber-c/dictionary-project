@@ -1,4 +1,26 @@
 .Photos img {
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 30px;
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 1199px) {
+  .Photos img {
+    margin: 0 0 10px 20px;
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Photos img {
+    margin: 0 0 10px 15px;
+    max-width: 29%;
+  }
+}
+
+@media only screen and (max-width: 446px) {
+  .Photos img {
+    margin: 0 0 15px 15px;
+    max-width: 90%;
+  }
 }
