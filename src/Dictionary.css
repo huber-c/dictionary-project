@@ -2,6 +2,16 @@
   padding: 30px;
 }
 
+.Dictionary h1 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Dictionary small {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
 .dictionary-input {
   border-radius: 7px;
   border: 0.13em solid #324a5e;
