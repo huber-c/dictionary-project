@@ -1,5 +1,10 @@
 body {
-  background: #fffdd1;
+  background-image: url("pexels-giftpunditscom-1303092.jpg");
+  background-color: #fffdd1;
+  height: 900px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
   color: #324a5e;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -21,5 +26,5 @@ a {
 }
 
 .footer {
-  margin: 30px 0;
+  padding: 10px 0 20px 0;
 }
